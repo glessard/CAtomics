@@ -5,14 +5,11 @@ import PackageDescription
 #if swift(>=4.0)
 
 let package = Package(
-  name: "SwiftAtomics",
+  name: "CAtomics",
   products: [
-    .library(name: "SwiftAtomics", targets: ["SwiftAtomics"]),
     .library(name: "CAtomics", targets: ["CAtomics"]),
   ],
   targets: [
-    .target(name: "SwiftAtomics", dependencies: ["CAtomics"]),
-    .testTarget(name: "SwiftAtomicsTests", dependencies: ["SwiftAtomics"]),
     .target(name: "CAtomics", dependencies: []),
     .testTarget(name: "CAtomicsTests", dependencies: ["CAtomics"]),
   ],
@@ -22,9 +19,9 @@ let package = Package(
 #else
 
 let package = Package(
-  name: "SwiftAtomics",
+  name: "CAtomics",
   targets: [
-    Target(name: "SwiftAtomics", dependencies: ["CAtomics"]),
+    Target(name: "CAtomics", dependencies: []),
   ]
 )
 
