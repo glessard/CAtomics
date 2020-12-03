@@ -9,7 +9,7 @@ else
   testspath="${PROJECT_DIR}/../Tests"
 fi
 
-testdirs="CAtomicsTests SwiftAtomicsTests"
+testdirs="CAtomicsTests"
 
 for testdir in ${testdirs}
 do
