@@ -1,5 +1,5 @@
 # CAtomics [![Build Status](https://travis-ci.org/glessard/CAtomics.svg?branch=main)](https://travis-ci.org/glessard/CAtomics)
-Some atomic functions made available to Swift 3.1 and up, thanks to Clang
+Some atomic functions made available to Swift 3.1 and up, including Swift 5.3
 
 This project bridges a subset of Clang's C11 atomics support to Swift, in a manner compatible with [SE-0282](https://github.com/apple/swift-evolution/blob/main/proposals/0282-atomics.md). This package has been the underlying guts of the long-standing (but now deprecated) [SwiftAtomics](https://github.com/glessard/swift-atomics) package since 2017.
 
