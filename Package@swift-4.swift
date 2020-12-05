@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-  name: "SwiftAtomics",
+  name: "CAtomics",
   products: [
     .library(name: "CAtomics", type: .static, targets: ["CAtomics"]),
   ],
